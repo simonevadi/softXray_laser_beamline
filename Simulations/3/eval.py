@@ -17,7 +17,7 @@ from parameter import energy
 from parameter import SlitSize
 from parameter import rml_file_name
 from parameter import colors
-
+from parameter import lin_polarization
 
 
 
@@ -27,9 +27,9 @@ rp_simulation_folder = 'RAYPy_Simulation_'+rml_file_name+'_RP'
 
 
 SlitSize = SlitSize*1000
-varying_var = SlitSize
-varying_var_n = 'Exit Slit'
-varying_var_unit = 'um'
+varying_var = lin_polarization
+varying_var_n = 'Lin Pol'
+varying_var_unit = ''
 
 # load Flux simulations results
 folder_name  = flux_simulation_folder

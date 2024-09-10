@@ -1,0 +1,48 @@
+2024-09-10 14:43:05,107 - INFO - Simulation started, using 10 workers
+2024-09-10 14:43:05,109 - INFO - Start round 0
+2024-09-10 14:43:05,110 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL1RP/round_0/0_Laser_BL1RP.rml
+2024-09-10 14:43:05,111 - INFO - Prepared sim number: 1: RAYPy_Simulation_Laser_BL1RP/round_0/1_Laser_BL1RP.rml
+2024-09-10 14:43:05,111 - INFO - Prepared sim number: 2: RAYPy_Simulation_Laser_BL1RP/round_0/2_Laser_BL1RP.rml
+2024-09-10 14:43:05,112 - INFO - Prepared sim number: 3: RAYPy_Simulation_Laser_BL1RP/round_0/3_Laser_BL1RP.rml
+2024-09-10 14:43:05,113 - INFO - Prepared sim number: 4: RAYPy_Simulation_Laser_BL1RP/round_0/4_Laser_BL1RP.rml
+2024-09-10 14:43:05,114 - INFO - Prepared sim number: 5: RAYPy_Simulation_Laser_BL1RP/round_0/5_Laser_BL1RP.rml
+2024-09-10 14:43:05,114 - INFO - Prepared sim number: 6: RAYPy_Simulation_Laser_BL1RP/round_0/6_Laser_BL1RP.rml
+2024-09-10 14:43:05,115 - INFO - Prepared sim number: 7: RAYPy_Simulation_Laser_BL1RP/round_0/7_Laser_BL1RP.rml
+2024-09-10 14:43:05,116 - INFO - Prepared sim number: 8: RAYPy_Simulation_Laser_BL1RP/round_0/8_Laser_BL1RP.rml
+2024-09-10 14:43:05,117 - INFO - Prepared sim number: 9: RAYPy_Simulation_Laser_BL1RP/round_0/9_Laser_BL1RP.rml
+2024-09-10 14:43:05,118 - INFO - Prepared sim number: 10: RAYPy_Simulation_Laser_BL1RP/round_0/10_Laser_BL1RP.rml
+2024-09-10 14:43:05,118 - INFO - Prepared sim number: 11: RAYPy_Simulation_Laser_BL1RP/round_0/11_Laser_BL1RP.rml
+2024-09-10 14:43:05,119 - INFO - Prepared sim number: 12: RAYPy_Simulation_Laser_BL1RP/round_0/12_Laser_BL1RP.rml
+2024-09-10 14:43:05,120 - INFO - Prepared sim number: 13: RAYPy_Simulation_Laser_BL1RP/round_0/13_Laser_BL1RP.rml
+2024-09-10 14:43:05,121 - INFO - Prepared sim number: 14: RAYPy_Simulation_Laser_BL1RP/round_0/14_Laser_BL1RP.rml
+2024-09-10 14:43:05,122 - INFO - Prepared sim number: 15: RAYPy_Simulation_Laser_BL1RP/round_0/15_Laser_BL1RP.rml
+2024-09-10 14:43:05,123 - INFO - Prepared sim number: 16: RAYPy_Simulation_Laser_BL1RP/round_0/16_Laser_BL1RP.rml
+2024-09-10 14:43:05,124 - INFO - Prepared sim number: 17: RAYPy_Simulation_Laser_BL1RP/round_0/17_Laser_BL1RP.rml
+2024-09-10 14:43:05,142 - INFO - Waiting for batch number: 0, timeout: 60s
+2024-09-10 14:43:08,524 - INFO - Completed: 1, remaining: 49, RAYPy_Simulation_Laser_BL1RP/round_0/6_Laser_BL1RP.rml
+2024-09-10 14:43:08,862 - INFO - Completed: 2, remaining: 48, RAYPy_Simulation_Laser_BL1RP/round_0/1_Laser_BL1RP.rml
+2024-09-10 14:43:09,063 - INFO - Completed: 3, remaining: 47, RAYPy_Simulation_Laser_BL1RP/round_0/7_Laser_BL1RP.rml
+2024-09-10 14:43:10,070 - INFO - Completed: 4, remaining: 46, RAYPy_Simulation_Laser_BL1RP/round_0/8_Laser_BL1RP.rml
+2024-09-10 14:43:11,233 - INFO - Completed: 5, remaining: 45, RAYPy_Simulation_Laser_BL1RP/round_0/2_Laser_BL1RP.rml
+2024-09-10 14:43:15,185 - INFO - Completed: 6, remaining: 44, RAYPy_Simulation_Laser_BL1RP/round_0/0_Laser_BL1RP.rml
+2024-09-10 14:43:16,381 - INFO - Completed: 7, remaining: 43, RAYPy_Simulation_Laser_BL1RP/round_0/3_Laser_BL1RP.rml
+2024-09-10 14:43:17,096 - INFO - Completed: 8, remaining: 42, RAYPy_Simulation_Laser_BL1RP/round_0/12_Laser_BL1RP.rml
+2024-09-10 14:43:17,360 - INFO - Completed: 9, remaining: 41, RAYPy_Simulation_Laser_BL1RP/round_0/13_Laser_BL1RP.rml
+2024-09-10 14:43:17,721 - INFO - Completed: 10, remaining: 40, RAYPy_Simulation_Laser_BL1RP/round_0/9_Laser_BL1RP.rml
+2024-09-10 14:43:19,025 - INFO - Completed: 11, remaining: 39, RAYPy_Simulation_Laser_BL1RP/round_0/4_Laser_BL1RP.rml
+2024-09-10 14:43:20,035 - INFO - Completed: 12, remaining: 38, RAYPy_Simulation_Laser_BL1RP/round_0/10_Laser_BL1RP.rml
+2024-09-10 14:43:20,060 - INFO - Completed: 13, remaining: 37, RAYPy_Simulation_Laser_BL1RP/round_0/14_Laser_BL1RP.rml
+2024-09-10 14:43:20,171 - INFO - Completed: 14, remaining: 36, RAYPy_Simulation_Laser_BL1RP/round_0/11_Laser_BL1RP.rml
+2024-09-10 14:43:20,297 - INFO - Completed: 15, remaining: 35, RAYPy_Simulation_Laser_BL1RP/round_0/5_Laser_BL1RP.rml
+2024-09-10 14:43:21,581 - INFO - Completed: 16, remaining: 34, RAYPy_Simulation_Laser_BL1RP/round_0/15_Laser_BL1RP.rml
+2024-09-10 14:43:22,065 - INFO - Completed: 17, remaining: 33, RAYPy_Simulation_Laser_BL1RP/round_0/17_Laser_BL1RP.rml
+2024-09-10 14:43:23,167 - INFO - Completed: 18, remaining: 32, RAYPy_Simulation_Laser_BL1RP/round_0/16_Laser_BL1RP.rml
+2024-09-10 14:43:23,168 - INFO - Batch Completed
+2024-09-10 14:43:23,168 - INFO - Waiting For batch, 50 simulations to go
+2024-09-10 14:43:23,168 - INFO - Remaning Simulations 0, stop the simulations loop
+2024-09-10 14:43:23,168 - INFO - Checking that all simulations are completed before stopping the ProcessPoolExecutor
+2024-09-10 14:43:23,168 - INFO - Executor shutdown completed.
+2024-09-10 14:43:23,169 - INFO - Simulation completed successfully.
+2024-09-10 14:43:23,169 - INFO - Starting cleanup
+2024-09-10 14:43:23,188 - INFO - Done with the cleanup
+2024-09-10 14:43:23,188 - INFO - End of the Simulations

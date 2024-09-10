@@ -1,0 +1,48 @@
+2024-09-10 15:04:39,422 - INFO - Simulation started, using 10 workers
+2024-09-10 15:04:39,423 - INFO - Start round 0
+2024-09-10 15:04:39,424 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL1_FLUX/round_0/0_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,425 - INFO - Prepared sim number: 1: RAYPy_Simulation_Laser_BL1_FLUX/round_0/1_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,425 - INFO - Prepared sim number: 2: RAYPy_Simulation_Laser_BL1_FLUX/round_0/2_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,426 - INFO - Prepared sim number: 3: RAYPy_Simulation_Laser_BL1_FLUX/round_0/3_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,427 - INFO - Prepared sim number: 4: RAYPy_Simulation_Laser_BL1_FLUX/round_0/4_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,428 - INFO - Prepared sim number: 5: RAYPy_Simulation_Laser_BL1_FLUX/round_0/5_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,428 - INFO - Prepared sim number: 6: RAYPy_Simulation_Laser_BL1_FLUX/round_0/6_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,429 - INFO - Prepared sim number: 7: RAYPy_Simulation_Laser_BL1_FLUX/round_0/7_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,430 - INFO - Prepared sim number: 8: RAYPy_Simulation_Laser_BL1_FLUX/round_0/8_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,431 - INFO - Prepared sim number: 9: RAYPy_Simulation_Laser_BL1_FLUX/round_0/9_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,431 - INFO - Prepared sim number: 10: RAYPy_Simulation_Laser_BL1_FLUX/round_0/10_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,432 - INFO - Prepared sim number: 11: RAYPy_Simulation_Laser_BL1_FLUX/round_0/11_Laser_BL1_FLUX.rml
+2024-09-10 15:04:39,452 - INFO - Waiting for batch number: 0, timeout: 60s
+2024-09-10 15:04:41,837 - INFO - Completed: 1, remaining: 49, RAYPy_Simulation_Laser_BL1_FLUX/round_0/0_Laser_BL1_FLUX.rml
+2024-09-10 15:04:41,890 - INFO - Completed: 2, remaining: 48, RAYPy_Simulation_Laser_BL1_FLUX/round_0/7_Laser_BL1_FLUX.rml
+2024-09-10 15:04:41,934 - INFO - Completed: 3, remaining: 47, RAYPy_Simulation_Laser_BL1_FLUX/round_0/2_Laser_BL1_FLUX.rml
+2024-09-10 15:04:42,002 - INFO - Completed: 4, remaining: 46, RAYPy_Simulation_Laser_BL1_FLUX/round_0/9_Laser_BL1_FLUX.rml
+2024-09-10 15:04:42,019 - INFO - Completed: 5, remaining: 45, RAYPy_Simulation_Laser_BL1_FLUX/round_0/3_Laser_BL1_FLUX.rml
+2024-09-10 15:04:43,184 - INFO - Completed: 6, remaining: 44, RAYPy_Simulation_Laser_BL1_FLUX/round_0/6_Laser_BL1_FLUX.rml
+2024-09-10 15:04:43,271 - INFO - Completed: 7, remaining: 43, RAYPy_Simulation_Laser_BL1_FLUX/round_0/5_Laser_BL1_FLUX.rml
+2024-09-10 15:04:44,505 - INFO - Completed: 8, remaining: 42, RAYPy_Simulation_Laser_BL1_FLUX/round_0/11_Laser_BL1_FLUX.rml
+2024-09-10 15:04:45,107 - INFO - Completed: 9, remaining: 41, RAYPy_Simulation_Laser_BL1_FLUX/round_0/4_Laser_BL1_FLUX.rml
+2024-09-10 15:04:45,677 - INFO - Completed: 10, remaining: 40, RAYPy_Simulation_Laser_BL1_FLUX/round_0/10_Laser_BL1_FLUX.rml
+2024-09-10 15:04:46,513 - INFO - Completed: 11, remaining: 39, RAYPy_Simulation_Laser_BL1_FLUX/round_0/1_Laser_BL1_FLUX.rml
+2024-09-10 15:04:47,181 - INFO - Completed: 12, remaining: 38, RAYPy_Simulation_Laser_BL1_FLUX/round_0/8_Laser_BL1_FLUX.rml
+2024-09-10 15:04:47,181 - INFO - Batch Completed
+2024-09-10 15:04:47,181 - INFO - Waiting For batch, 50 simulations to go
+2024-09-10 15:04:47,181 - INFO - Remaning Simulations 0, stop the simulations loop
+2024-09-10 15:04:47,181 - INFO - Checking that all simulations are completed before stopping the ProcessPoolExecutor
+2024-09-10 15:04:47,181 - INFO - Executor shutdown completed.
+2024-09-10 15:04:47,182 - INFO - Simulation completed successfully.
+2024-09-10 15:04:47,182 - INFO - Starting cleanup
+2024-09-10 15:04:47,199 - INFO - Done with the cleanup
+2024-09-10 15:04:47,199 - INFO - End of the Simulations
+2024-09-10 15:04:52,138 - INFO - Simulation started, using 10 workers
+2024-09-10 15:04:52,140 - INFO - Start round 0
+2024-09-10 15:04:52,140 - INFO - Waiting for batch number: 0, timeout: 60s
+2024-09-10 15:04:52,140 - INFO - Batch Completed
+2024-09-10 15:04:52,140 - INFO - Waiting For batch, 50 simulations to go
+2024-09-10 15:04:52,140 - INFO - Remaning Simulations 0, stop the simulations loop
+2024-09-10 15:04:52,140 - INFO - Checking that all simulations are completed before stopping the ProcessPoolExecutor
+2024-09-10 15:04:52,141 - INFO - Executor shutdown completed.
+2024-09-10 15:04:52,141 - INFO - Simulation completed successfully.
+2024-09-10 15:04:52,141 - INFO - Starting cleanup
+2024-09-10 15:04:52,144 - INFO - Done with the cleanup
+2024-09-10 15:04:52,144 - INFO - End of the Simulations
