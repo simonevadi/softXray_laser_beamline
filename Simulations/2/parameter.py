@@ -1,11 +1,11 @@
 import numpy as np
 
 nrays    = 1e5
-rounds   = 1
+rounds   = 5
 ncpu     = 10
 
-SlitSize = np.array([0.01, 0.05, 0.1])
-energy = np.arange(40,160,20)
+SlitSize = np.array([0.01, 0.05, 0.1, 0.15])
+energy = np.arange(40,160,2)
 
 rml_file_name = 'Laser_BL1'
 
