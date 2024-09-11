@@ -66,7 +66,7 @@ C   = rm.Material('Pt',  rho=2.2, kind='mirror',table=table)
 
 Au_r, _ = get_reflectivity(Au, E=E, theta=incident_angle)
 Pt_r, _ = get_reflectivity(Pt, E=E, theta=incident_angle)
-C_r, _ = get_reflectivity(C, E=E, theta=incident_angle)
+C_r, _  = get_reflectivity(C, E=E, theta=incident_angle)
 
 ax2=axs[0,0]
 ax2.set_xlabel('Energy [eV]')

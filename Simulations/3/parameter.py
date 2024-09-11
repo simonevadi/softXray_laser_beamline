@@ -1,15 +1,14 @@
 import numpy as np
 
 nrays    = 1e5
-rounds   = 1
-ncpu     = 10
+rounds   = 5
+ncpu     = 8
 
 SlitSize = np.array([0.05])
-energy = np.arange(40,160,20)
-lin_polarization = np.array([-1, 1])
+energy = np.arange(40,160,2)
+lin_polarization = np.array([-1, 0, 1])
 
 rml_file_name = 'Laser_BL1'
-
 
 
 ### plotting colors
