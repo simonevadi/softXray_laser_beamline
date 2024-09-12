@@ -25,9 +25,9 @@ sim_name = rml_file_name+'_RP'
 # and plug them into the Simulation class
 
 sim.params = [              
+            {beamline.ExitSlit.openingHeight:SlitSize},
             {beamline.Laser.photonEnergy:energy},
             {beamline.Laser.numberRays:nrays},
-            {beamline.ExitSlit.openingHeight:SlitSize},
             {beamline.Laser.linearPol_0:lin_polarization}
         ]
 
