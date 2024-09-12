@@ -2,7 +2,7 @@ import numpy as np
 
 nrays    = 1e5
 rounds   = 5
-ncpu     = 8
+ncpu     = 12
 
 SlitSize = np.array([0.05])
 energy = np.arange(40,160,2)
