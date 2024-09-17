@@ -1,14 +1,15 @@
 import numpy as np
 
 nrays    = 1e5
-rounds   = 4
+rounds   = 5
 ncpu     = 12
 
-SlitSize = np.array([0.15, 0.10, 0.05, 0.02])
-energy = np.arange(40,200,2)
+SlitSize = np.array([0.10, 0.05])
+energy = np.arange(40,250,2)
 lin_polarization = np.array([1])
 
-rml_file_name_Laser_Hitachi_1200l_V2  = 'Laser_Hitachi_1200l_V2'
+rml_file_name_Laser_Shimadzu  = 'Laser_Shimadzu_1200l'
+rml_file_name_Laser_Hitachi   = 'Laser_Hitachi_1200l'
 
 
 ### plotting colors

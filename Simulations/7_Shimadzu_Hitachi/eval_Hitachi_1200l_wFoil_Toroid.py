@@ -15,7 +15,7 @@ from helper_lib import scale_undulator_flux, order
 # import simulation parameters
 from parameter import energy
 from parameter import SlitSize
-from parameter import rml_file_name_Laser_Hitachi_1200l as rml_file_name
+from parameter import rml_file_name_Laser_Hitachi as rml_file_name
 from parameter import colors
 #from parameter import lin_polarization
 
@@ -55,8 +55,6 @@ energy_rp    = np.loadtxt(en_rp_path)
 fig, (axs) = plt.subplots(3, 2,figsize=(10,10))
 fig.suptitle(f"{rml_file_name}")
 
-xmin = 80
-xmax = 200
 
 # MIRROR COATING
 table = 'Henke'
@@ -95,7 +93,6 @@ ax.set_title('Available Flux [in transmitted bandwidth]')
 ax.grid(which='both', axis='both')
 ax.legend()
 
-ax.set_xlim((xmin,xmax))
 
 
 # BANDWIDTH
@@ -111,8 +108,6 @@ ax.set_ylabel('Transmitted Bandwidth [meV]')
 ax.set_title('Transmitted Bandwidth (tbw)')
 ax.grid(which='both', axis='both')
 # ax.set_yscale('log')
-ax.set_xlim((xmin,xmax))
-ax.set_ylim((90,200))
 ax.legend()
 
 
@@ -134,8 +129,6 @@ ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('RP [a.u.]')
 ax.set_title('Resolving Power')
 ax.grid(which='both', axis='both')
-ax.set_xlim((xmin,xmax))
-ax.set_ylim((800,1200))
 ax.legend()
 
 # HORIZONTAL FOCUS
@@ -146,7 +139,6 @@ for ind, es in enumerate(varying_var):
 ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('Focus Size [um]')
 ax.set_title('Horizontal Focus')
-ax.set_xlim((xmin,xmax))
 ax.legend()
 
 # # VERTICAL FOCUS
@@ -157,10 +149,8 @@ for ind, es in enumerate(varying_var):
 ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('Focus Size [um]')
 ax.set_title('Vertical Focus')
-ax.set_xlim((xmin,xmax))
-
 
 plt.tight_layout()
 plt.savefig('plot/FluxRpFocus'+rml_file_name+'.pdf')
 
-plt.show()
+# plt.show()

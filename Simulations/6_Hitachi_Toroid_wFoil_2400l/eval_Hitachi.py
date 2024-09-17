@@ -15,7 +15,7 @@ from helper_lib import scale_undulator_flux, order
 # import simulation parameters
 from parameter import energy
 from parameter import SlitSize
-from parameter import rml_file_name_Laser_Hitachi_1200l as rml_file_name
+from parameter import rml_file_name_Laser_Hitachi_2400l as rml_file_name
 from parameter import colors
 #from parameter import lin_polarization
 
@@ -55,20 +55,24 @@ energy_rp    = np.loadtxt(en_rp_path)
 fig, (axs) = plt.subplots(3, 2,figsize=(10,10))
 fig.suptitle(f"{rml_file_name}")
 
-xmin = 80
-xmax = 200
+xmin = 200
+xmax = 1200
 
 # MIRROR COATING
 table = 'Henke'
 incident_angle = 2
-E   = np.arange(40, 200, 1)
-Au  = rm.Material('Au',  rho=19.3, kind='mirror',table=table)
+E   = np.arange(40, 1200, 1)
+Au  = rm.Material('Au',  rho=19.32, kind='mirror',table=table)
 Pt  = rm.Material('Pt',  rho=21.45, kind='mirror',table=table)
-C   = rm.Material('Pt',  rho=2.2, kind='mirror',table=table)
+C   = rm.Material('C',   rho=2.26,  kind='mirror',table=table)
+Ru  = rm.Material('Ru',  rho=12.37, kind='mirror',table=table)
+Ni  = rm.Material('Ni',  rho=8.91,  kind='mirror',table=table)
 
 Au_r, _ = get_reflectivity(Au, E=E, theta=incident_angle)
 Pt_r, _ = get_reflectivity(Pt, E=E, theta=incident_angle)
-C_r, _  = get_reflectivity(C, E=E, theta=incident_angle)
+C_r, _  = get_reflectivity(C,  E=E, theta=incident_angle)
+Ru_r, _ = get_reflectivity(Ru, E=E, theta=incident_angle)
+Ni_r, _ = get_reflectivity(Ni, E=E, theta=incident_angle)
 
 ax2=axs[0,0]
 ax2.set_xlabel('Energy [eV]')
@@ -77,6 +81,9 @@ ax2.set_title('Mirror Coating Reflectivity')
 ax2.plot(E, Au_r, label='Au')
 ax2.plot(E, Pt_r, label='Pt')
 ax2.plot(E, C_r, label='C')
+ax2.plot(E, Ru_r, label='Ru')
+ax2.plot(E, Ni_r, label='Ni')
+ax2.set_ylim ((0.2, 1.0))
 ax2.legend()
 
 
@@ -95,10 +102,10 @@ ax.set_title('Available Flux [in transmitted bandwidth]')
 ax.grid(which='both', axis='both')
 ax.legend()
 
-ax.set_xlim((xmin,xmax))
+#ax.set_xlim((xmin,xmax))
 
 
-# BANDWIDTH
+# TRANSMITTED BANDWIDTH
 ax = axs[1,0]
 ss = energy_rp.shape[0]
 
@@ -111,8 +118,8 @@ ax.set_ylabel('Transmitted Bandwidth [meV]')
 ax.set_title('Transmitted Bandwidth (tbw)')
 ax.grid(which='both', axis='both')
 # ax.set_yscale('log')
-ax.set_xlim((xmin,xmax))
-ax.set_ylim((90,200))
+# ax.set_xlim((xmin,xmax))
+# ax.set_ylim((90,200))
 ax.legend()
 
 
@@ -134,8 +141,8 @@ ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('RP [a.u.]')
 ax.set_title('Resolving Power')
 ax.grid(which='both', axis='both')
-ax.set_xlim((xmin,xmax))
-ax.set_ylim((800,1200))
+# ax.set_xlim((xmin,xmax))
+ax.set_ylim((990,1500))
 ax.legend()
 
 # HORIZONTAL FOCUS
@@ -146,7 +153,7 @@ for ind, es in enumerate(varying_var):
 ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('Focus Size [um]')
 ax.set_title('Horizontal Focus')
-ax.set_xlim((xmin,xmax))
+# ax.set_xlim((xmin,xmax))
 ax.legend()
 
 # # VERTICAL FOCUS
@@ -157,10 +164,10 @@ for ind, es in enumerate(varying_var):
 ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('Focus Size [um]')
 ax.set_title('Vertical Focus')
-ax.set_xlim((xmin,xmax))
+# ax.set_xlim((xmin,xmax))
 
 
 plt.tight_layout()
 plt.savefig('plot/FluxRpFocus'+rml_file_name+'.pdf')
 
-plt.show()
+# plt.show()

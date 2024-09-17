@@ -5,10 +5,10 @@ rounds   = 4
 ncpu     = 12
 
 SlitSize = np.array([0.15, 0.10, 0.05, 0.02])
-energy = np.arange(40,200,2)
+energy = np.arange(220,750,2)
 lin_polarization = np.array([1])
 
-rml_file_name_Laser_Hitachi_1200l_V2  = 'Laser_Hitachi_1200l_V2'
+rml_file_name_Laser_Hitachi_2400l  = 'Laser_Hitachi_2400l'
 
 
 ### plotting colors
