@@ -1,0 +1,2 @@
+Simulation Number ExitSlit.openingHeight Laser.photonEnergy Laser.numberRays Laser.linearPol_0 Laser.energySpread
+0                 0.14                   120                500000           1                 160               
