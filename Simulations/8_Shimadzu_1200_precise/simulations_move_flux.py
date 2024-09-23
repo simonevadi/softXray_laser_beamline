@@ -25,11 +25,10 @@ sim_name = rml_file_name+'_FLUX'
 # and plug them into the Simulation class
 
 sim.params = [              
+            {beamline.Laser.photonEnergy:energy, beamline.CamInput.translationYerror:Ydirection},
             {beamline.ExitSlit.openingHeight:SlitSize},
-            {beamline.Laser.photonEnergy:energy},
             {beamline.Laser.numberRays:nrays},
             {beamline.CamInput.openingHeight:SlitSizeCam},
-            {beamline.CamInput.translationYerror:Ydirection}
         ]
 
 # sim.simulation_folder = '/home/simone/Documents/RAYPYNG/raypyng/test'
