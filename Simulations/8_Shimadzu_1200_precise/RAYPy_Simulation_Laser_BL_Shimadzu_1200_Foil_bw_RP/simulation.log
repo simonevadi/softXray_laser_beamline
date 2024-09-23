@@ -16796,3 +16796,97 @@
 2024-09-19 14:34:54,926 - INFO - Starting cleanup
 2024-09-19 14:34:55,001 - INFO - Done with the cleanup
 2024-09-19 14:34:55,002 - INFO - End of the Simulations
+2024-09-23 08:59:09,314 - INFO - Simulation started, using 12 workers
+2024-09-23 08:59:09,316 - INFO - Start round 0
+2024-09-23 08:59:09,318 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_0/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,318 - INFO - Start round 1
+2024-09-23 08:59:09,319 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_1/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,319 - INFO - Start round 2
+2024-09-23 08:59:09,320 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_2/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,320 - INFO - Start round 3
+2024-09-23 08:59:09,322 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_3/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,322 - INFO - Start round 4
+2024-09-23 08:59:09,323 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_4/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,323 - INFO - Start round 5
+2024-09-23 08:59:09,324 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_5/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,324 - INFO - Start round 6
+2024-09-23 08:59:09,325 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_6/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,325 - INFO - Start round 7
+2024-09-23 08:59:09,326 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_7/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,327 - INFO - Start round 8
+2024-09-23 08:59:09,328 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_8/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,328 - INFO - Start round 9
+2024-09-23 08:59:09,329 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_9/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,329 - INFO - Start round 10
+2024-09-23 08:59:09,331 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_10/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,331 - INFO - Start round 11
+2024-09-23 08:59:09,332 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_11/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:09,355 - INFO - Waiting for batch number: 0, timeout: 60s
+2024-09-23 08:59:11,314 - INFO - Completed: 1, remaining: 59, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_11/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:11,337 - INFO - Completed: 2, remaining: 58, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_2/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:11,967 - INFO - Completed: 3, remaining: 57, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_9/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:12,099 - INFO - Completed: 4, remaining: 56, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_6/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:12,376 - INFO - Completed: 5, remaining: 55, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_7/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:12,437 - INFO - Completed: 6, remaining: 54, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_1/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:12,544 - INFO - Completed: 7, remaining: 53, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_10/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:13,315 - INFO - Completed: 8, remaining: 52, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_3/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:13,411 - INFO - Completed: 9, remaining: 51, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_4/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:13,482 - INFO - Completed: 10, remaining: 50, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_5/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:13,842 - INFO - Completed: 11, remaining: 49, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_8/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:15,001 - INFO - Completed: 12, remaining: 48, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_0/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 08:59:15,001 - INFO - Batch Completed
+2024-09-23 08:59:15,001 - INFO - Waiting For batch, 60 simulations to go
+2024-09-23 08:59:15,001 - INFO - Remaning Simulations 0, stop the simulations loop
+2024-09-23 08:59:15,001 - INFO - Checking that all simulations are completed before stopping the ProcessPoolExecutor
+2024-09-23 08:59:15,003 - INFO - Executor shutdown completed.
+2024-09-23 08:59:15,004 - INFO - Simulation completed successfully.
+2024-09-23 08:59:15,004 - INFO - Starting cleanup
+2024-09-23 08:59:15,026 - INFO - Done with the cleanup
+2024-09-23 08:59:15,026 - INFO - End of the Simulations
+2024-09-23 09:00:06,404 - INFO - Simulation started, using 12 workers
+2024-09-23 09:00:06,405 - INFO - Start round 0
+2024-09-23 09:00:06,406 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_0/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,406 - INFO - Start round 1
+2024-09-23 09:00:06,407 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_1/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,407 - INFO - Start round 2
+2024-09-23 09:00:06,408 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_2/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,408 - INFO - Start round 3
+2024-09-23 09:00:06,409 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_3/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,409 - INFO - Start round 4
+2024-09-23 09:00:06,409 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_4/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,409 - INFO - Start round 5
+2024-09-23 09:00:06,410 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_5/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,410 - INFO - Start round 6
+2024-09-23 09:00:06,411 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_6/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,411 - INFO - Start round 7
+2024-09-23 09:00:06,412 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_7/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,412 - INFO - Start round 8
+2024-09-23 09:00:06,412 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_8/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,412 - INFO - Start round 9
+2024-09-23 09:00:06,413 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_9/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,413 - INFO - Start round 10
+2024-09-23 09:00:06,414 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_10/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,414 - INFO - Start round 11
+2024-09-23 09:00:06,415 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_11/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:06,439 - INFO - Waiting for batch number: 0, timeout: 60s
+2024-09-23 09:00:10,236 - INFO - Completed: 1, remaining: 59, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_10/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:10,559 - INFO - Completed: 2, remaining: 58, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_0/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:11,378 - INFO - Completed: 3, remaining: 57, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_5/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:11,770 - INFO - Completed: 4, remaining: 56, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_1/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:12,758 - INFO - Completed: 5, remaining: 55, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_8/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:12,997 - INFO - Completed: 6, remaining: 54, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_4/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:13,132 - INFO - Completed: 7, remaining: 53, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_6/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:14,224 - INFO - Completed: 8, remaining: 52, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_7/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:14,370 - INFO - Completed: 9, remaining: 51, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_2/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:14,821 - INFO - Completed: 10, remaining: 50, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_11/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:15,342 - INFO - Completed: 11, remaining: 49, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_9/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:15,804 - INFO - Completed: 12, remaining: 48, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_RP/round_3/0_Laser_BL_Shimadzu_1200_Foil_bw_RP.rml
+2024-09-23 09:00:15,804 - INFO - Batch Completed
+2024-09-23 09:00:15,804 - INFO - Waiting For batch, 60 simulations to go
+2024-09-23 09:00:15,804 - INFO - Remaning Simulations 0, stop the simulations loop
+2024-09-23 09:00:15,804 - INFO - Checking that all simulations are completed before stopping the ProcessPoolExecutor
+2024-09-23 09:00:15,805 - INFO - Executor shutdown completed.
+2024-09-23 09:00:15,805 - INFO - Simulation completed successfully.
+2024-09-23 09:00:15,805 - INFO - Starting cleanup
+2024-09-23 09:00:15,834 - INFO - Done with the cleanup
+2024-09-23 09:00:15,834 - INFO - End of the Simulations

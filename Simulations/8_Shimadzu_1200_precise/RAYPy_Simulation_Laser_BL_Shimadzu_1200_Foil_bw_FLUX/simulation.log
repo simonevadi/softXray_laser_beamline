@@ -45,3 +45,50 @@
 2024-09-19 14:35:08,970 - INFO - Starting cleanup
 2024-09-19 14:35:09,044 - INFO - Done with the cleanup
 2024-09-19 14:35:09,045 - INFO - End of the Simulations
+2024-09-23 08:59:49,224 - INFO - Simulation started, using 12 workers
+2024-09-23 08:59:49,225 - INFO - Start round 0
+2024-09-23 08:59:49,226 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_0/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,226 - INFO - Start round 1
+2024-09-23 08:59:49,227 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_1/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,227 - INFO - Start round 2
+2024-09-23 08:59:49,228 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_2/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,228 - INFO - Start round 3
+2024-09-23 08:59:49,228 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_3/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,228 - INFO - Start round 4
+2024-09-23 08:59:49,229 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_4/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,229 - INFO - Start round 5
+2024-09-23 08:59:49,230 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_5/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,230 - INFO - Start round 6
+2024-09-23 08:59:49,231 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_6/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,231 - INFO - Start round 7
+2024-09-23 08:59:49,231 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_7/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,231 - INFO - Start round 8
+2024-09-23 08:59:49,232 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_8/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,232 - INFO - Start round 9
+2024-09-23 08:59:49,233 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_9/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,233 - INFO - Start round 10
+2024-09-23 08:59:49,234 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_10/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,234 - INFO - Start round 11
+2024-09-23 08:59:49,234 - INFO - Prepared sim number: 0: RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_11/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:49,258 - INFO - Waiting for batch number: 0, timeout: 60s
+2024-09-23 08:59:51,687 - INFO - Completed: 1, remaining: 59, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_1/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:52,067 - INFO - Completed: 2, remaining: 58, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_0/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:53,818 - INFO - Completed: 3, remaining: 57, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_10/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:54,274 - INFO - Completed: 4, remaining: 56, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_5/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:54,825 - INFO - Completed: 5, remaining: 55, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_9/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:54,959 - INFO - Completed: 6, remaining: 54, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_11/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:55,100 - INFO - Completed: 7, remaining: 53, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_3/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:56,678 - INFO - Completed: 8, remaining: 52, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_6/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:57,477 - INFO - Completed: 9, remaining: 51, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_2/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:58,077 - INFO - Completed: 10, remaining: 50, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_7/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:58,217 - INFO - Completed: 11, remaining: 49, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_8/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:59,220 - INFO - Completed: 12, remaining: 48, RAYPy_Simulation_Laser_BL_Shimadzu_1200_Foil_bw_FLUX/round_4/0_Laser_BL_Shimadzu_1200_Foil_bw_FLUX.rml
+2024-09-23 08:59:59,221 - INFO - Batch Completed
+2024-09-23 08:59:59,221 - INFO - Waiting For batch, 60 simulations to go
+2024-09-23 08:59:59,221 - INFO - Remaning Simulations 0, stop the simulations loop
+2024-09-23 08:59:59,221 - INFO - Checking that all simulations are completed before stopping the ProcessPoolExecutor
+2024-09-23 08:59:59,222 - INFO - Executor shutdown completed.
+2024-09-23 08:59:59,222 - INFO - Simulation completed successfully.
+2024-09-23 08:59:59,223 - INFO - Starting cleanup
+2024-09-23 08:59:59,256 - INFO - Done with the cleanup
+2024-09-23 08:59:59,256 - INFO - End of the Simulations

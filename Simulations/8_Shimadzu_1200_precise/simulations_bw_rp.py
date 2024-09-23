@@ -55,4 +55,4 @@ sim.exports  =  [
 
 #uncomment to run the simulations
 sim.run(multiprocessing=ncpu, force=False)
-delete_round_folders('RAYPy_Simulation_'+sim_name)
+# delete_round_folders('RAYPy_Simulation_'+sim_name)
