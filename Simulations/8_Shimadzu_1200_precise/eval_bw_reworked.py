@@ -104,28 +104,28 @@ fig.suptitle(f"{rml_file_name}")
 
 
 # # MIRROR COATING
-# table = 'Henke'
-# incident_angle = 2
-# E   = np.arange(40, 600, 1)
-# Au  = rm.Material('Au',  rho=19.3, kind='mirror',table=table)
-# Pt  = rm.Material('Pt',  rho=21.45, kind='mirror',table=table)
-# # C   = rm.Material('C',   rho=2.2, kind='mirror',table=table)
-# Ni  = rm.Material('Ni',  rho=8.91, kind='mirror',table=table)
+table = 'Henke'
+incident_angle = 2
+E   = np.arange(40, 600, 1)
+Au  = rm.Material('Au',  rho=19.3, kind='mirror',table=table)
+Pt  = rm.Material('Pt',  rho=21.45, kind='mirror',table=table)
+# C   = rm.Material('C',   rho=2.2, kind='mirror',table=table)
+Ni  = rm.Material('Ni',  rho=8.91, kind='mirror',table=table)
 
-# Au_r, _ = get_reflectivity(Au, E=E, theta=incident_angle)
-# Pt_r, _ = get_reflectivity(Pt, E=E, theta=incident_angle)
-# # C_r, _  = get_reflectivity(C, E=E, theta=incident_angle)
-# Ni_r, _ = get_reflectivity(Ni, E=E, theta=incident_angle)
+Au_r, _ = get_reflectivity(Au, E=E, theta=incident_angle)
+Pt_r, _ = get_reflectivity(Pt, E=E, theta=incident_angle)
+# C_r, _  = get_reflectivity(C, E=E, theta=incident_angle)
+Ni_r, _ = get_reflectivity(Ni, E=E, theta=incident_angle)
 
-# ax2=axs[0,0]
-# ax2.set_xlabel('Energy [eV]')
-# ax2.set_ylabel('Reflectivity [a.u.]')
-# ax2.set_title('Mirror Coating Reflectivity')
-# ax2.plot(E, Au_r, label='Au')
-# ax2.plot(E, Pt_r, label='Pt')
-# # ax2.plot(E, C_r, label='C')
-# ax2.plot(E, Ni_r, label='Ni')
-# ax2.legend()
+ax2=axs[0,0]
+ax2.set_xlabel('Energy [eV]')
+ax2.set_ylabel('Reflectivity [a.u.]')
+ax2.set_title('Mirror Coating Reflectivity')
+ax2.plot(E, Au_r, label='Au')
+ax2.plot(E, Pt_r, label='Pt')
+# ax2.plot(E, C_r, label='C')
+ax2.plot(E, Ni_r, label='Ni')
+ax2.legend()
 
 
 
@@ -164,6 +164,7 @@ ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('RP [a.u.]')
 ax.set_title('Resolving Power')
 ax.grid(which='both', axis='both')
+ax.set_ylim(100,800)
 ax.legend()
 
 

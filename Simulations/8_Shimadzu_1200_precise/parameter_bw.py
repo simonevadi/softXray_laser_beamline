@@ -1,7 +1,7 @@
 import numpy as np
 
 nrays    = 1e5
-rounds   = 12
+rounds   = 1200
 ncpu     = 12
 
 SlitSize = np.array([0.14])
