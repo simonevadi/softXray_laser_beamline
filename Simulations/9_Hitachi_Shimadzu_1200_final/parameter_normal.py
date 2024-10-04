@@ -5,11 +5,12 @@ rounds   = 10
 ncpu     = 12
 
 SlitSize = np.array([0.14])
-energy = np.arange(40,180,1)
+energy = np.arange(60,220,1)
 lin_polarization = np.array([1])
 
 
-rml_file_name_Laser_BL = 'Laser_Shimadzu_Hitachi_1200'
+rml_file_name_Laser_BL              = 'Laser_Shimadzu_Hitachi_1200'
+rml_file_name_Laser_BL_Kapillare    = 'Laser_Shimadzu_Hitachi_1200_Kapillare'
 
 
 ### plotting colors

@@ -164,7 +164,7 @@ ax.set_xlabel('Energy [eV]')
 ax.set_ylabel('RP [a.u.]')
 ax.set_title('Resolving Power')
 ax.grid(which='both', axis='both')
-ax.set_ylim(100,800)
+# ax.set_ylim(100,800)
 ax.legend()
 
 

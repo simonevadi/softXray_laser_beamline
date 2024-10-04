@@ -1,16 +1,13 @@
 import numpy as np
 
 nrays    = 1e5
-rounds   = 1400
-ncpu     = 10
+rounds   = 10
+ncpu     = 12
 
 SlitSize = np.array([0.14])
-energy   = np.array([120])
-energySpread = np.array([160])      #means half the value arround the set energy
-lin_polarization = np.array([1])
+energy = np.arange(60,180,1)
 
 
-rml_file_name_Laser_BL              = 'Laser_Shimadzu_Hitachi_1200'
 rml_file_name_Laser_BL_Kapillare    = 'Laser_Shimadzu_Hitachi_1200_Kapillare'
 
 

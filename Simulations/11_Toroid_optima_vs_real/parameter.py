@@ -1,17 +1,16 @@
 import numpy as np
 
 nrays    = 1e5
-rounds   = 1400
+rounds   = 5
 ncpu     = 10
 
 SlitSize = np.array([0.14])
-energy   = np.array([120])
-energySpread = np.array([160])      #means half the value arround the set energy
+energy = np.arange(40,180,1)
 lin_polarization = np.array([1])
 
 
-rml_file_name_Laser_BL              = 'Laser_Shimadzu_Hitachi_1200'
-rml_file_name_Laser_BL_Kapillare    = 'Laser_Shimadzu_Hitachi_1200_Kapillare'
+rml_file_name_Laser_Shimadzu_opt  = 'Laser_Shimadzu_1200_opt'
+rml_file_name_Laser_Shimadzu_real = 'Laser_Shimadzu_1200_real'
 
 
 ### plotting colors
