@@ -392,9 +392,9 @@
    <param id="alpha" auto="F" enabled="T">87</param>
    <param id="beta" auto="T" enabled="T">-79.97265478891349</param>
    <param id="lineSpacing" comment="variable (VLS)" enabled="T">1</param>
-   <param id="vlsParameter1" enabled="T">-0.05</param>
-   <param id="vlsParameter2" enabled="T">0.002193944712593</param>
-   <param id="vlsParameter3" enabled="T">-8.445945945900001e-05</param>
+   <param id="vlsParameter1" enabled="T">-0.003540449637</param>
+   <param id="vlsParameter2" enabled="T">1.428338595e-05</param>
+   <param id="vlsParameter3" enabled="T">-6.568057984000001e-08</param>
    <param id="vlsParameter4" enabled="T">0</param>
    <param id="vlsParameter5" enabled="T">0</param>
    <param id="vlsParameter6" enabled="T">0</param>
