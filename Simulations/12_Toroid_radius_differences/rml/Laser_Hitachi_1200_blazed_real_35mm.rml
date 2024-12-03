@@ -122,8 +122,8 @@
    <param id="exitArmLengthSag" enabled="T">1005</param>
    <param id="entranceArmLengthMer" enabled="T">1000</param>
    <param id="exitArmLengthMer" enabled="T">1003</param>
-   <param id="longRadius" auto="T" enabled="T">28696.62453608323</param>
-   <param id="shortRadius" auto="F" enabled="T">45</param>
+   <param id="longRadius" auto="F" enabled="T">28650</param>
+   <param id="shortRadius" auto="F" enabled="T">35</param>
    <param id="distancePreceding" enabled="T">250</param>
    <param id="azimuthalAngle" enabled="T">180</param>
    <param id="reflectivityType" comment="Derived by Material" enabled="T">1</param>
@@ -385,27 +385,27 @@
    <param id="deviationAngle" enabled="F">10</param>
    <param id="entranceArmLength" enabled="T">237</param>
    <param id="exitArmLength" auto="F" enabled="T">236.7</param>
-   <param id="radius" auto="F" enabled="T">6000</param>
-   <param id="designEnergy" auto="F" enabled="T">100</param>
+   <param id="radius" auto="F" enabled="T">5649</param>
+   <param id="designEnergy" auto="F" enabled="T">107</param>
    <param id="lineDensity" enabled="T">1200</param>
    <param id="orderDiffraction" enabled="T">1</param>
    <param id="alpha" auto="F" enabled="T">87</param>
-   <param id="beta" auto="T" enabled="T">-79.65727433368198</param>
+   <param id="beta" auto="T" enabled="T">-79.97265478891349</param>
    <param id="lineSpacing" comment="variable (VLS)" enabled="T">1</param>
-   <param id="vlsParameter1" enabled="T">0.003659542</param>
-   <param id="vlsParameter2" enabled="T">1.40694e-05</param>
-   <param id="vlsParameter3" enabled="T">6.66229e-08</param>
+   <param id="vlsParameter1" enabled="T">-0.003540449637</param>
+   <param id="vlsParameter2" enabled="T">1.428338595e-05</param>
+   <param id="vlsParameter3" enabled="T">-6.568057984000001e-08</param>
    <param id="vlsParameter4" enabled="T">0</param>
    <param id="vlsParameter5" enabled="T">0</param>
    <param id="vlsParameter6" enabled="T">0</param>
    <param id="distancePreceding" enabled="T">37</param>
    <param id="azimuthalAngle" enabled="T">0</param>
-   <param id="lineProfile" comment="laminar" enabled="T">2</param>
+   <param id="lineProfile" comment="blaze" enabled="T">0</param>
    <param id="gratingEfficiency" enabled="F">0.5</param>
-   <param id="blazeAngle" enabled="F">3.2</param>
+   <param id="blazeAngle" enabled="T">3.2</param>
    <param id="aspectAngle" enabled="T">90</param>
-   <param id="grooveDepth" enabled="T">15</param>
-   <param id="grooveRatio" enabled="T">0.65</param>
+   <param id="grooveDepth" enabled="F">60</param>
+   <param id="grooveRatio" enabled="F">0.65</param>
    <param id="multilayerFourierCoefficients" auto="T" enabled="T">11</param>
    <param id="multilayerIntegrationSteps" auto="T" enabled="T">50</param>
    <param id="reflectivityType" comment="Derived by Material" enabled="T">1</param>
@@ -479,8 +479,8 @@
    <param id="rotationZerror" enabled="T">0</param>
    <param id="worldPosition" enabled="F">
     <x>0.0000000000000000</x>
-    <y>19.7462946510547042</y>
-    <z>2466.0927946477095247</z>
+    <y>18.4777446317099248</y>
+    <z>2466.3899808421319904</z>
    </param>
    <param id="worldXdirection" enabled="F">
     <x>1.0000000000000000</x>
@@ -489,26 +489,26 @@
    </param>
    <param id="worldYdirection" enabled="F">
     <x>0.0000000000000000</x>
-    <y>0.9730070533071284</y>
-    <z>-0.2307753761010450</z>
+    <y>0.9742625927850430</y>
+    <z>-0.2254160604299644</z>
    </param>
    <param id="worldZdirection" enabled="F">
     <x>0.0000000000000000</x>
-    <y>0.2307753761010450</y>
-    <z>0.9730070533071284</z>
+    <y>0.2254160604299644</y>
+    <z>0.9742625927850430</z>
    </param>
   </object>
  </beamline>
  <drawing>
-  <mainBeamThickness>6</mainBeamThickness>
+  <mainBeamThickness>0</mainBeamThickness>
   <header>true</header>
   <axes>true</axes>
   <names>true</names>
   <angles>true</angles>
   <scaling>0</scaling>
-  <scaleLinear>0.521</scaleLinear>
-  <scaleExponent>0.279</scaleExponent>
-  <scaleLinearOffset>1300</scaleLinearOffset>
-  <scaleExponentiallyOffset>2400</scaleExponentiallyOffset>
+  <scaleLinear>1</scaleLinear>
+  <scaleExponent>1</scaleExponent>
+  <scaleLinearOffset>600</scaleLinearOffset>
+  <scaleExponentiallyOffset>600</scaleExponentiallyOffset>
  </drawing>
 </lab>

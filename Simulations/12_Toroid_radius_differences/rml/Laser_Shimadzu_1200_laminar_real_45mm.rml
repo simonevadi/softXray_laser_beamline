@@ -509,6 +509,6 @@
   <scaleLinear>0.521</scaleLinear>
   <scaleExponent>0.279</scaleExponent>
   <scaleLinearOffset>1300</scaleLinearOffset>
-  <scaleExponentiallyOffset>2400</scaleExponentiallyOffset>
+  <scaleExponentiallyOffset>600</scaleExponentiallyOffset>
  </drawing>
 </lab>
