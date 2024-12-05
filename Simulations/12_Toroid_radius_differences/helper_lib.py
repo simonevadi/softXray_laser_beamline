@@ -51,6 +51,29 @@ import os
 import shutil
 
 def delete_round_folders(directory):
+    """
+    Deletes subdirectories within a specified directory that match the pattern 'round*'.
+
+    This function iterates over each item in the specified directory. If an item is a directory and its name
+    starts with "round", the function deletes it along with all its contents. If the specified directory does
+    not exist, it prints an error message and terminates the operation without any modification.
+
+    Args:
+        directory (str): The path to the directory where subdirectories beginning with "round" will be deleted.
+
+    Returns:
+        None: This function does not return anything but prints messages about the directories it deletes
+              or if the main directory does not exist.
+
+    Raises:
+        OSError: If there are issues accessing the directory or removing subdirectories, such as
+                 permission issues, this function will raise an OSError.
+
+    Example:
+        >>> delete_round_folders("/path/to/directory")
+        Directory not found: /path/to/directory
+        Deleted: /path/to/directory/round1
+    """
     # Check if the provided directory exists
     if not os.path.exists(directory):
         print(f"Directory not found: {directory}")
