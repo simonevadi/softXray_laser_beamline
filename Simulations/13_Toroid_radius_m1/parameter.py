@@ -1,8 +1,8 @@
 import numpy as np
 
-nrays    = 1e5
+nrays    = 3e5
 rounds   = 5
-ncpu     = 10
+ncpu     = 30
 
 SlitSize  = np.array([0.12])
 energy    = np.array([100])
