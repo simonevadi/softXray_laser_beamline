@@ -37,26 +37,30 @@ m1 = rp['M1.shortRadius']
 ########################################
 # plotting Flux and RP
 
-fig, (axs) = plt.subplots(1, 2,figsize=(10,10))
+fig, (axs) = plt.subplots(1, 2,figsize=(10,6))
 fig.suptitle(f"{rml_file_name}")
 
 
 # HORIZONTAL FOCUS
 ax = axs[0]
-ax.plot(m1,1000*rp['HorizontalFocusFWHM'])
+ax.plot(m1,1000*rp['HorizontalFocusFWHM'], color='green')
 
-ax.set_xlabel('Energy [eV]')
-ax.set_ylabel('Focus Size [um]')
+ax.set_xlabel('Sagittal radius M1 [mm]')
+ax.set_ylabel('Focus size at camera [um]')
 ax.set_title('Horizontal Focus')
-ax.legend()
+ax.minorticks_on()
+
+#ax.legend()
 
 # # VERTICAL FOCUS
 ax = axs[1]
-ax.plot(m1,1000*rp['VerticalFocusFWHM'])
+ax.plot(m1,1000*rp['VerticalFocusFWHM'], color='red')
 
-ax.set_xlabel('Energy [eV]')
-ax.set_ylabel('Focus Size [um]')
+ax.set_xlabel('Sagittal radius M1 [mm]')
+ax.set_ylabel('Focus size at camera [um]')
 ax.set_title('Vertical Focus')
+ax.minorticks_on()
+
 
 plt.tight_layout()
 plt.savefig(f'plot/'+rml_file_name+'_m1.pdf')
